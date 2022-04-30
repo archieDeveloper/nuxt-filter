@@ -1,0 +1,14 @@
+export const CODE_BACKSPACE: number = 8
+export const CODE_BREAK: number = 19
+export const CODE_DELETE: number = 46
+export const CODE_DOWN: number = 40
+export const CODE_END: number = 35
+export const CODE_ENTER: number = 13
+export const CODE_ESC: number = 27
+export const CODE_HOME: number = 36
+export const CODE_LEFT: number = 37
+export const CODE_PAGEDOWN: number = 34
+export const CODE_PAGEUP: number = 33
+export const CODE_RIGHT: number = 39
+export const CODE_SPACE: number = 32
+export const CODE_UP: number = 38

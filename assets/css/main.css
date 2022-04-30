@@ -1,0 +1,45 @@
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+body, input, button {
+  font-family: "Roboto", ui-sans-serif, system-ui, -apple-system, Segoe UI, Ubuntu, Cantarell, sans-serif, BlinkMacSystemFont, "Segoe UI", Arial;
+  font-size: 14px;
+}
+
+.filter {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 1000px;
+  margin-left: -15px;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+.filter__item {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.filter__item_decoration {
+  width: 175px;
+}
+
+.flex-fixed {
+  flex: 0 1 auto !important;
+}
+.flex-content {
+  flex: 1 1 0 !important;
+}
+
+.button {
+  background: #fff;
+  border: 1px solid #686868;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover {
+  background: rgb(152 189 255 / 25%);
+  border: 1px solid #98bdff;
+}
